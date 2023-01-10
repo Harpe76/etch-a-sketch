@@ -15,11 +15,33 @@ header {
     display: grid;
     grid-template-columns: repeat(16, auto);
     padding: 10px;  
+    height: 600px;
+    width: 600px;
+    justify-content: center;
 }
 
 .box {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    padding: 0px;
+}
+
+.selected {
+    background-color: red;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    margin: 0;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
